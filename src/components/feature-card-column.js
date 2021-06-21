@@ -8,7 +8,7 @@ export default function FeatureCardColumn({
   text,
 }) {
   return (
-    <Box>
+    <Box sx={styles.card}>
       <Image src={src} altText={altText} sx={styles.img} />
       <Box sx={styles.wrapper}>
         <Heading sx={styles.wrapper.title}>{title}</Heading>
